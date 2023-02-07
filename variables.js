@@ -40,3 +40,12 @@ console.log(secret)
 let guess = 5;
 console.log(guess)
 console.log(guess == secret)
+
+name = "Bolin";
+name ++;
+
+name = 7;
+console.log)(name)
+
+name == 7;
+console.log)(name)
