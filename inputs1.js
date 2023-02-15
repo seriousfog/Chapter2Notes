@@ -1,6 +1,6 @@
 const readLine = require("readline-sync");
 
-
+//1
 let answer = readLine.question("Do you want to hear a joke? ");
 console.log(answer);
 if (answer == "yes"){
@@ -15,7 +15,7 @@ if (work == "yes"){
 }
 
 
-
+//2 and 3
 const readLine = require ('readline-sync');
 
 let poppy = Number(readLine.question("Enter a number: "));
@@ -38,7 +38,15 @@ console.log(`${poppy} being divided by ${2} is ${answer}!`);{
 }
 
 
+//4
+let answer= readline.question("Choose a number between 1-10 \nYour Response: ")
+console.log(answer);if (answer == "2")
+{    console.log('You Won!')}else
+{    console.log('Try Again')
 
+
+
+//5
 let cost = Number(readLine.question("Enter price: "));{
     if (cost <= 0)
         console.log('invalid')
@@ -47,10 +55,3 @@ let tax = cost * 0.08;
 let newcost = cost + tax;
 newcost = newcost.toFixed(2);
 console.log(newcost)
-
-
-
-let answer= readline.question("Choose a number between 1-10 \nYour Response: ")
-console.log(answer);if (answer == "2")
-{    console.log('You Won!')}else
-{    console.log('Try Again')
