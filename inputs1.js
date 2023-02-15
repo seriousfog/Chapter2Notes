@@ -47,3 +47,10 @@ let tax = cost * 0.08;
 let newcost = cost + tax;
 newcost = newcost.toFixed(2);
 console.log(newcost)
+
+
+
+let answer= readline.question("Choose a number between 1-10 \nYour Response: ")
+console.log(answer);if (answer == "2")
+{    console.log('You Won!')}else
+{    console.log('Try Again')
