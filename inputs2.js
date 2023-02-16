@@ -62,3 +62,9 @@ let state = readLine.question("What is your state? ");
 let zip = readLine.question("What is your zip code? ");
 console.log(`${streetnumber} ${streetname} ${streettype}\n ${city}, ${state} ${zip}`)
 
+//9
+let first5 = Number(readLine.question("Enter your first number "));
+let second5 = Number(readLine.question("Enter your second number "));
+let answer5 = first5 / second5;
+let answer6 = first5 % second5;
+console.log(`${first5} divided by ${second5} is ${answer5} remainder ${answer6}`);
