@@ -2,8 +2,8 @@ const readLine = require('readline-sync');
 
 
 //5
-let x = 0;
-while (x <= 101){
-    console.log(x);
-    x+2;
+let start = 0;
+while (start <= 100){
+    console.log(start);
+    start ++;
 }
