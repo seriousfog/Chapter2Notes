@@ -3,7 +3,18 @@ const readLine = require('readline-sync');
 
 //5
 let start = 0;
+
 while (start <= 100){
-    console.log(start);
-    start ++;
+    if(start < 10){
+
+        console.log(start);
+
+    } else if (start > 25){
+
+        console.log(start);
+
+    }
+
+    start++;
+
 }
