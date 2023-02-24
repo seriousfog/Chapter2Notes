@@ -1,4 +1,4 @@
-
+const readLine = require('readline-sync');
 
 //1
 // for (let i = 0; i <= 150; i++){
@@ -44,14 +44,36 @@
 //   console.log(sum)
 
 //8
-// let sum = 0;
+// let sum = 1;
 // for (let i = 1; i <= 15; i++){
-//     sum **= i;
+//     sum *= i;
+//  console.log(sum)
 // }
-// console.log(sum)
+
+//9
+// let sum = 1;
+// for (let i = 10; i <= 35; i++){
+//  sum *= i;
+//  console.log(sum)
+// }
 
 //10
- for (let i = 0; i <= 12; i++){
-console.log("Happy Holidays!")
- }
+//  for (let i = 0; i <= 12; i++){
+// console.log("Happy Holidays!")
+//  }
 
+//11
+// let num = readLine.question("Pick a number: ");
+//
+// for (let num  ; i++) {
+//  console.log("Happy Holidays!")
+// }
+
+//12
+// let sum = 0;
+//   for (let i = 100; i <= 200; i++) {
+//    if (i % 2 == 0) {
+//     sum += i;
+//     console.log(sum)
+//    }
+//   }
